@@ -1,0 +1,56 @@
+{
+    "products": [
+        {
+            "name": "Two Tier Coffee Table",
+            "id": "1",
+            "price": "$3,000",
+            "description": "Introducing the Two Tier Coffee Table – a practical interpretation inspired by the timeless Wyeth Oak Floating Coffee Table from Restoration Hardware. Crafted with precision from White Oak sourced locally in the Pacific Northwest, this table stands out for its durability and natural beauty. Unlike its counterpart, this table is crafted entirely from solid White Oak, omitting veneers and engineered wood for enduring quality. The double-decker design adds a contemporary touch, providing both display and storage space, marrying form and function seamlessly. Rotted in the essence of African tribal design, the silhouettes exude a sense of modern luxury. Meticulously handcrafted by Griffin, this piece is a unique and stunning addition to any living space.",
+            "images": [
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg"
+            ]
+        },
+        {
+            "name": "Ember Coffee Table",
+            "id": "2",
+            "price": "Sold",
+            "description": "Behold the Ember Coffee Table – a testament to nature’s artistry and the timeless craft of woodworking. Crafted from a magnificent round cedar slab sourced from a bearutiful farm in Port Orchard, WA. Embracing the ancient technique of “shou sugi ban,” the entire table was engulfed in flames, leaving a charred, rich texture that accentuates the natural grains of the wood. The crack, now adorned with expertly crafted bowties, stands as a symbol of strength and artful intervention, ensuring the tables longevity. Supported by vibrant geometric cedar legs, this table not only boasts a unique design but harmoniously blends form and function. Telling a captivating story, where nature’s imperfections become art.",
+            "images": [
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg"
+            ]
+        },
+        {
+            "name": "Elmwood Foyer Table",
+            "id": "3",
+            "price": "Sold",
+            "description": "Introducing the Elmwood Waterfall Foyer Table – a heartfelt creation born from the dirt in Woodinville, WA. A bittersweet transformation of an elm tree affected by Dutch Elms Disease. This piece is more than furniture; it’s a narrative of preservation and renewal, a tribute to the tree’s enduring legacy. Crafted through a labor of love – from cutting down the tree to meticulously milling and drying the wood – the Elmwood Waterfall Foyer table embodies the resilience found in repurposing a tree marked by disease. The design, elegantly simple yet striking, allows the grain to flow seamlessly through the entire table, creating a captivating waterfall effect.",
+            "images": [
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg"
+            ]
+        },
+        {
+            "name": "Walnut & Cherry Chessboard",
+            "id": "4",
+            "price": "Sold",
+            "description": "A timeless masterpiece meticulously crafted from locally sourced cherry and walnut wood. This classic design takes on a distinctively gothic ambiance, infusing the traditional with a touch of dark allure. Every square tells a story as the rich hues of cherry and walnut come together in perfect harmony. The locally sourced wood not only adds authenticity to the craftsmanship but also echoes a commitment to sustainability. This chess board, a wedding present to my brother and his wife, is more than a strategic game set. It's a symbol of enduring love and thoughtful craftsmanship. The contrasting colors and intricate detailing make each move on this board a visual delight.",
+            "images": [
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg",
+                "../../assets/foyer/foyer_1.jpg"
+            ]
+        }
+    ]
+}
