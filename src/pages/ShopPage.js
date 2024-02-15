@@ -1,6 +1,5 @@
 import React from 'react';
 import Shop from '../components/Shop/Shop';
-// import Product from '../components/Shop/Product'; // Assuming you have a Product component
 
 const ShopPage = () => {
   return (

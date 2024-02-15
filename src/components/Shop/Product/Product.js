@@ -10,8 +10,7 @@ const Product = ({ id, name, price, image }) => {
     <div className="product" onClick={() => navigate(name)}>
       <img src={image} alt={name} />
       <h3>{name}</h3>
-      <p>${price}</p>
-      {/* Add buttons or other elements for interaction */}
+      <p>{price}</p>
     </div>
   );
 };

@@ -9,15 +9,10 @@ const Shop = () => {
     // Fetch products from an API or set them manually
     // For example, setProducts(api.fetchProducts());
     setProducts([
-      { id: 1, name: 'Product 1', price: 19.99, image: '../../assets/thumbnails/Product 1.jpg' },
-      { id: 2, name: 'Product 2', price: 29.99, image: '../../assets/thumbnails/foyer_1.jpg' },
-      { id: 3, name: 'Product 2', price: 29.99, image: '../../assets/thumbnails/foyer_1.jpg' },
-      { id: 4, name: 'Product 2', price: 29.99, image: '../../assets/thumbnails/foyer_1.jpg' },
-      { id: 4, name: 'Product 2', price: 29.99, image: '../../assets/thumbnails/foyer_1.jpg' },
-      { id: 4, name: 'Product 2', price: 29.99, image: '../../assets/thumbnails/foyer_1.jpg' },
-      { id: 4, name: 'Product 2', price: 29.99, image: '../../assets/thumbnails/foyer_1.jpg' },
-      { id: 4, name: 'Product 2', price: 29.99, image: '../../assets/thumbnails/foyer_1.jpg' },
-      // Add more products as needed
+      { id: 1, name: 'Two Tier Coffee Table', price: '$3,000', image: '../../assets/thumbnails/rh-1-large.jpg', alt:'rh' },
+      { id: 2, name: 'Elmwood Foyer Table', price: 'sold', image: '../../assets/thumbnails/foyer-1-large.jpg', alt:'foyer' },
+      { id: 3, name: 'Ember Coffee Table', price: 'sold', image: '../../assets/thumbnails/ember-1-large.jpg', alt:'ember' },
+      { id: 4, name: 'Walnut & Cherry Chessboard', price: 'sold', image: '../../assets/thumbnails/chessboard.png', alt:'chessboard' },
     ]);
   }, []);
 

@@ -25,13 +25,13 @@ const Footer = () => {
     <footer className={isVisible ? 'visible' : ''}>
       <div className="social-links">
         <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
-          <img src='../../assets/youtube.png' alt="YouTube" />
+          <img src='../../assets/socials/youtube.png' alt="YouTube" />
         </a>
         <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-          <img src='../../assets/instagram.png' alt="Instagram" />
+          <img src='../../assets/socials/instagram.png' alt="Instagram" />
         </a>
         <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
-          <img src='../../assets/tiktok.png' alt="TikTok" />
+          <img src='../../assets/socials/tiktok.png' alt="TikTok" />
         </a>
       </div>
       <p>&copy; 2024 Late Night Woodworking</p>
