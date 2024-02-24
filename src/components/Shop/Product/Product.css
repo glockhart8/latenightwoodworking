@@ -2,33 +2,33 @@
 .product {
     text-align: center;
     cursor: pointer;
-  }
-  
-  .product img {
+}
+
+.product img {
     border-radius: 4px;
     max-width: 100%;
     width: auto;
     height: auto;
-  }
-  
-  .product h3 {
+}
+
+.product h3 {
     margin: 10px 0;
-  }
-  
-  .product p {
+}
+
+.product p {
     font-weight: bold;
     color: #333;
-  }
-  
-  .product button {
+}
+
+.product button {
     background-color: #4caf50;
     color: white;
     padding: 8px 16px;
     border: none;
     cursor: pointer;
     font-size: 14px;
-  }
-  
-  .product button:hover {
+}
+
+.product button:hover {
     background-color: #45a049;
-  }
+}

@@ -1,43 +1,43 @@
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    z-index: 1;
 }
 
 .home-nav {
-  position: absolute;
-  top: 10px;
-  left: 50px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
 }
 
 .home-nav a {
-  color: rgb(255,255,255, .7);
+    color: rgb(255, 255, 255, 0.7);
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 li {
-  margin-left: 50px;
+    margin-left: 50px;
 }
 
 a {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a:hover {
-  color: #ffcc00;
+    color: #ffcc00;
 }
 
 .logo {
-  max-width: 100px;
+    max-width: 100px;
 }

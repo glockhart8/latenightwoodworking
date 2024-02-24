@@ -1,37 +1,37 @@
 /* Footer.css */
 footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  opacity: 0; /* Start with opacity 0 */
-  transition: opacity 0.5s ease; /* Add a smooth transition */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    opacity: 0; /* Start with opacity 0 */
+    transition: opacity 0.5s ease; /* Add a smooth transition */
 }
 
 .social-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .social-links a {
-  margin: 0 10px;
+    margin: 0 10px;
 }
 
 .social-links img {
-  width: 30px;
-  height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 p {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 /* Show the footer when isVisible is true */
 footer.visible {
-  opacity: 1;
+    opacity: 1;
 }
