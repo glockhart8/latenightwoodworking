@@ -3,7 +3,7 @@ import React from 'react'
 import './Product.css'
 import { useNavigate } from 'react-router-dom'
 
-const Product = ({ id, name, price, image }) => {
+const Product = ({ name, price, image }) => {
     const navigate = useNavigate()
 
     return (
