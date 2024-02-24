@@ -14,7 +14,7 @@ function App() {
                 <Route path="/" exact element={<HomePage />} />
                 <Route path="/shop" element={<ShopPage />} />
                 <Route path="/about" element={<AboutPage />} />
-                <Route path="/shop/:name" element={<ProductPage />} />
+                <Route path="/shop/:key" element={<ProductPage />} />
             </Routes>
             <Footer />
         </Router>

@@ -11,7 +11,12 @@ const ShopPage = () => {
             <h2>Our Products</h2>
             <div className="product-list">
                 {products.products.map((product) => (
-                    <Product key={product.id} image={product.images[0]} {...product} />
+                    <Product
+                        key={product.id}
+                        image={product.images[0]}
+                        productKey={product.key}
+                        {...product}
+                    />
                 ))}
             </div>
         </div>
