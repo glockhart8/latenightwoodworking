@@ -10,13 +10,15 @@ function App() {
     return (
         <Router>
             <Header />
+            <div style={{ marginLeft: '5%', marginRight: '5%', }} >
             <Routes>
                 <Route path="/" exact element={<HomePage />} />
                 <Route path="/shop" element={<ShopPage />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/shop/:key" element={<ProductPage />} />
             </Routes>
-            <Footer />
+            </div>
+            {/* <Footer /> */}
         </Router>
     )
 }

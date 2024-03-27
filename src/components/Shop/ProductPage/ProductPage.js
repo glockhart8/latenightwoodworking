@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom'
 
 import products from '../../../product-information.json'
 
+import './ProductPage.css'
+
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/css'
@@ -19,28 +21,43 @@ const ProductPage = () => {
     const product = products.products.find((product) => product.key === key)
 
     return (
-        // <div>
-        <div style={{ width: '80%' }}>
+        <div style={{ display: 'flex' }}>
+
+        <div style={{ width: '50%',  }}>
+            
             <Swiper navigation thumbs={{ swiper: thumbsSwiper }} modules={[Navigation, Thumbs]}>
-                {product.images.map((image, index) => (
+                {product.images.large.map((image, index) => (
                     <SwiperSlide key={index}>
-                        <img src={`../../assets/${image}`} alt="product" />
+                        <img src={`../../assets/${image}`} alt="product" className='responsive' />
                     </SwiperSlide>
                 ))}
             </Swiper>
             <Swiper
                 loop
                 onSwiper={setThumbsSwiper}
-                slidesPerView={product.images.length}
+                slidesPerView={product.images.small.length}
                 modules={[Navigation, Thumbs]}
-            >
-                {product.images.map((image, index) => (
+                >
+                {product.images.small.map((image, index) => (
                     <SwiperSlide key={index}>
-                        <img src={`../../assets/${image}`} alt="product" />
+                        <div className='thumb-wrapper'>
+
+                        <img src={`../../assets/${image}`} alt="product" className='responsive' />
+                        </div>
                     </SwiperSlide>
                 ))}
             </Swiper>
         </div>
+        <div style={{ width: '50%', marginLeft: '24px' }}>
+            <h3>{product.name}</h3>
+            <p>
+
+                
+            {product.description}
+
+            </p>
+        </div>
+                </div>
     )
 }
 

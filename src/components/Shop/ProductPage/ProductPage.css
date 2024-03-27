@@ -1,0 +1,17 @@
+.responsive {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+
+  
+
+
+.swiper-thumbs {
+    width: 80%
+}
+
+.thumb-wrapper {
+    padding: 4px;
+}
