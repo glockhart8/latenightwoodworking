@@ -1,40 +1,43 @@
 // Footer.js
-import React, { useState, useEffect } from 'react'
+import React from 'react'
+import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa'
 import './Footer.css'
 
 const Footer = () => {
-    const [isVisible, setIsVisible] = useState(false)
-
-    useEffect(() => {
-        const handleScroll = () => {
-            const scrollY = window.scrollY || document.documentElement.scrollTop
-            const isFooterVisible =
-                scrollY + window.innerHeight >= document.documentElement.scrollHeight
-
-            setIsVisible(isFooterVisible)
-        }
-
-        window.addEventListener('scroll', handleScroll)
-
-        // Clean up the event listener on component unmount
-        return () => {
-            window.removeEventListener('scroll', handleScroll)
-        }
-    }, [])
-
     return (
-        <footer className={isVisible ? 'visible' : ''}>
-            <div className="social-links">
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/socials/youtube.png" alt="YouTube" />
-                </a>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/socials/instagram.png" alt="Instagram" />
-                </a>
-                <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/socials/tiktok.png" alt="TikTok" />
-                </a>
-            </div>
+        <footer className='footer'>
+            <ul className='social-icon'>
+                <li className='social-icon__item'>
+                    <a className='social-icon__link' href="https://www.youtube.com/channel/UCRtyWekZNAPNUySmpt3i31w?sub_confirmation=1">
+                        <FaYoutube/>
+                    </a>
+                </li>
+                <li className='social-icon__item'>
+                    <a className='social-icon__link' href='https://www.instagram.com/late_night_woodworking'>
+                    <FaInstagram/>
+                    </a>
+                </li>
+                <li className='social-icon__item'>
+                    <a className="social-icon__link" href="https://www.tiktok.com/@late_night_woodworking">
+                    <FaTiktok/>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="menu">
+                <li class="menu__item">
+                    <a class="menu__link" href="/">Home</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/shop">Shop</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/about">About</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/">Contact</a>
+                </li>
+            </ul>
             <p>&copy; 2024 Late Night Woodworking</p>
         </footer>
     )

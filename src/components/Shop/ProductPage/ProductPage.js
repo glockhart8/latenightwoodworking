@@ -22,7 +22,7 @@ const ProductPage = () => {
 
     return (
         <div className='product-wrapper'>
-            <div className='product'>
+            <div className='product-imgs'>
                 <Swiper navigation thumbs={{ swiper: thumbsSwiper }} modules={[Navigation, Thumbs]}>
                     {product.images.large.map((image, index) => (
                         <SwiperSlide key={index}>
@@ -46,10 +46,10 @@ const ProductPage = () => {
                     ))}
                 </Swiper>
             </div>
-            <div className='product-description' style={{ width: '50%', marginLeft: '24px' }}>
-                <h2>{product.name}</h2>
-                <h3>{product.price}</h3>
-                <p>{product.description}</p>
+            <div className='product-description'>
+                <h2 style={{marginLeft: '16px' }}>{product.name}</h2>
+                <h3 style={{marginLeft: '16px' }}>{product.price}</h3>
+                <p style={{marginLeft: '16px' }}>{product.description}</p>
             </div>
         </div>
     )

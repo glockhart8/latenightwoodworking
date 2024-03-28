@@ -14,9 +14,10 @@
 
 .product-wrapper {
     display: flex;
+    padding-top: 32px;
 }
 
-.product {
+.product-imgs {
     width: 50%;    
 }
 
@@ -33,7 +34,7 @@
         width: 100%;
     }
 
-    .product {
+    .product-imgs {
         width: 90%;
     }
 

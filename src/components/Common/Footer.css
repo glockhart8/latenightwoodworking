@@ -1,37 +1,77 @@
-/* Footer.css */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    opacity: 0; /* Start with opacity 0 */
-    transition: opacity 0.5s ease; /* Add a smooth transition */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-.social-links {
+.footer {
+    position: relative;
+    width: 100%;
+    background: black;
+    min-height: 100px;
+    padding: 20px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    flex-direction: column;
+  }
+  
+
+.social-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+
+.social-icon, .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
 }
 
-.social-links a {
+.social-icon__item, .menu__item {
+    list-style: none;
+}
+
+.social-icon__link {
+    font-size: 2rem;
+    color: #fff;
     margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
 }
 
-.social-links img {
-    width: 30px;
-    height: 30px;
+.social-icon__link:hover {
+    transform: translateY(-10px);
 }
 
-p {
-    margin-top: 10px;
+.menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
 }
 
-/* Show the footer when isVisible is true */
-footer.visible {
+.menu__link:hover {
     opacity: 1;
+}
+
+.footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
 }

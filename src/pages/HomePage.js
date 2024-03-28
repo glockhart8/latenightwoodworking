@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <div>
             <LandingSection />
-            {/* Add other components or sections for your home page */}
+            <p style={{height: "100vh"}}/>
         </div>
     )
 }
