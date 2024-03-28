@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes, HashRouter } from 'react-router-dom'
+import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import ShopPage from './pages/ShopPage'
 import ProductPage from './components/Shop/ProductPage/ProductPage'
@@ -8,7 +8,7 @@ import Header from './components/Common/Header'
 import Footer from './components/Common/Footer'
 function App() {
     return (
-        <HashRouter>
+        <BrowserRouter>
             <Header />
             <div style={{ marginLeft: '5%', marginRight: '5%', }} >
             <Routes>
@@ -19,7 +19,7 @@ function App() {
             </Routes>
             </div>
             <Footer />
-        </HashRouter>
+        </BrowserRouter>
     )
 }
 

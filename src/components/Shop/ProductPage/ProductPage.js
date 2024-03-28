@@ -28,7 +28,7 @@ const ProductPage = () => {
             <Swiper navigation thumbs={{ swiper: thumbsSwiper }} modules={[Navigation, Thumbs]}>
                 {product.images.large.map((image, index) => (
                     <SwiperSlide key={index}>
-                        <img src={`../../assets/${image}`} alt="product" className='responsive' />
+                        <img src={`/assets/${image}`} alt="product" className='responsive' />
                     </SwiperSlide>
                 ))}
             </Swiper>
@@ -42,7 +42,7 @@ const ProductPage = () => {
                     <SwiperSlide key={index}>
                         <div className='thumb-wrapper'>
 
-                        <img src={`../../assets/${image}`} alt="product" className='responsive' />
+                        <img src={`/assets/${image}`} alt="product" className='responsive' />
                         </div>
                     </SwiperSlide>
                 ))}

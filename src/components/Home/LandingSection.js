@@ -4,7 +4,7 @@ import './LandingSection.css' // Create this file for styling
 const LandingSection = () => {
     return (
         <div className="landing-section">
-            <img src="../../assets/landing-image.jpg" alt="Landing" />
+            <img src="/assets/landing-image.jpg" alt="Landing" />
         </div>
     )
 }

@@ -21,7 +21,7 @@ const Header = () => {
         // <div className='nav-wrapper'>
         //     <nav className={isHome ? 'home-nav' : ''}>
         //         <Link to="/" className='logo-container'>
-        //             <img className='logo' src={isHome ? '../../assets/logo.png' : '../../assets/logo_black.png'} alt="Logo" />
+        //             <img className='logo' src={isHome ? '/assets/logo.png' : '/assets/logo_black.png'} alt="Logo" />
         //         </Link>
         //         <div onClick={handleBurgerClick} className="burger"> 
         //             <div className="line1"></div>
@@ -47,7 +47,7 @@ const Header = () => {
                 <span className='button button-toggle'/>
             </label>
             <Link to="/" className='logo-container'>
-                <img className='logo' src={isHome ? '../../assets/logo.png' : '../../assets/logo_black.png'} alt="Logo" />
+                <img className='logo' src={isHome ? '/assets/logo.png' : '/assets/logo_black.png'} alt="Logo" />
             </Link>
             <nav className='nav'>
                 <Link to="/" className='nav-item'>Home</Link>
