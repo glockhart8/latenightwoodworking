@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/latenightwoodworking/static/css/main.17c930da.css",
+    "main.js": "/latenightwoodworking/static/js/main.c9891a71.js",
+    "index.html": "/latenightwoodworking/index.html",
+    "main.17c930da.css.map": "/latenightwoodworking/static/css/main.17c930da.css.map",
+    "main.c9891a71.js.map": "/latenightwoodworking/static/js/main.c9891a71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17c930da.css",
+    "static/js/main.c9891a71.js"
+  ]
+}
