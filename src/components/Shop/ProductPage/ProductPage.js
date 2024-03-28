@@ -21,43 +21,37 @@ const ProductPage = () => {
     const product = products.products.find((product) => product.key === key)
 
     return (
-        <div style={{ display: 'flex' }}>
+        <div className='product-wrapper'>
+            <div className='product'>
+                <Swiper navigation thumbs={{ swiper: thumbsSwiper }} modules={[Navigation, Thumbs]}>
+                    {product.images.large.map((image, index) => (
+                        <SwiperSlide key={index}>
+                            <img src={`/assets/${image}`} alt="product" className='responsive' />
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+                <Swiper
+                    loop
+                    onSwiper={setThumbsSwiper}
+                    slidesPerView={product.images.small.length}
+                    modules={[Navigation, Thumbs]}
+                    >
+                    {product.images.small.map((image, index) => (
+                        <SwiperSlide key={index}>
+                            <div className='thumb-wrapper'>
 
-        <div style={{ width: '50%',  }}>
-            
-            <Swiper navigation thumbs={{ swiper: thumbsSwiper }} modules={[Navigation, Thumbs]}>
-                {product.images.large.map((image, index) => (
-                    <SwiperSlide key={index}>
-                        <img src={`/assets/${image}`} alt="product" className='responsive' />
-                    </SwiperSlide>
-                ))}
-            </Swiper>
-            <Swiper
-                loop
-                onSwiper={setThumbsSwiper}
-                slidesPerView={product.images.small.length}
-                modules={[Navigation, Thumbs]}
-                >
-                {product.images.small.map((image, index) => (
-                    <SwiperSlide key={index}>
-                        <div className='thumb-wrapper'>
-
-                        <img src={`/assets/${image}`} alt="product" className='responsive' />
-                        </div>
-                    </SwiperSlide>
-                ))}
-            </Swiper>
+                            <img src={`/assets/${image}`} alt="product" className='responsive' />
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
+            <div className='product-description' style={{ width: '50%', marginLeft: '24px' }}>
+                <h2>{product.name}</h2>
+                <h3>{product.price}</h3>
+                <p>{product.description}</p>
+            </div>
         </div>
-        <div style={{ width: '50%', marginLeft: '24px' }}>
-            <h3>{product.name}</h3>
-            <p>
-
-                
-            {product.description}
-
-            </p>
-        </div>
-                </div>
     )
 }
 
