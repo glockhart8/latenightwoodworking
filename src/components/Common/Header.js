@@ -1,18 +1,19 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
+import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import './Header.scss'
 
 const Header = () => {
     const location = useLocation()
 
-	const [click, setClick] = useState(false);
-    const handleBurgerClick = () => {
-		setClick(!click);
+	// const [click, setClick] = useState(false);
+    // const handleBurgerClick = () => {
+	// 	setClick(!click);
 
-		// Burger Animation
-		const burger = document.querySelector('.burger');
-		burger.classList.toggle('toggleBurger');
-	}
+	// 	// Burger Animation
+	// 	const burger = document.querySelector('.burger');
+	// 	burger.classList.toggle('toggleBurger');
+	// }
 
     const isHome = location.pathname === '/'
 
