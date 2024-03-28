@@ -1,13 +1,14 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { Route, Routes, HashRouter } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import ShopPage from './pages/ShopPage'
 import ProductPage from './components/Shop/ProductPage/ProductPage'
 import AboutPage from './pages/AboutPage'
 import Header from './components/Common/Header'
+import Footer from './components/Common/Footer'
 function App() {
     return (
-        <Router>
+        <HashRouter>
             <Header />
             <div style={{ marginLeft: '5%', marginRight: '5%', }} >
             <Routes>
@@ -17,8 +18,8 @@ function App() {
                 <Route path="/shop/:key" element={<ProductPage />} />
             </Routes>
             </div>
-            {/* <Footer /> */}
-        </Router>
+            <Footer />
+        </HashRouter>
     )
 }
 
