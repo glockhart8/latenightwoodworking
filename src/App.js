@@ -5,6 +5,7 @@ import ShopPage from './pages/ShopPage'
 import ProductPage from './components/Shop/ProductPage/ProductPage'
 import AboutPage from './pages/AboutPage'
 import Header from './components/Common/Header'
+import Footer from './components/Common/Footer'
 function App() {
     return (
         <Router>
