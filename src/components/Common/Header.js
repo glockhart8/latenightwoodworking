@@ -28,32 +28,18 @@ const Header = () => {
                     <div className="line3"></div>
                 </div>
                 <ul className={click ? 'nav active' : 'nav'}>
-                    <li>
-                        <Link to="/">Home</Link>
+                    <li onClick={handleBurgerClick}>
+                        <Link className='nav-item' to="/">Home</Link>
                     </li>
-                    <li>
-                        <Link to="/shop">Shop</Link>
+                    <li onClick={handleBurgerClick}>
+                        <Link className='nav-item' to="/shop">Shop</Link>
                     </li>
-                    <li>
-                        <Link to="/about">About</Link>
+                    <li onClick={handleBurgerClick}>
+                        <Link className='nav-item' to="/about">About</Link>
                     </li>
                 </ul>
             </nav>
         </div>
-        // <div className='container'>
-        //     <input id='toggle' type='checkbox'/>
-        //     <label className='toggle-container'for='toggle'>
-        //         <span className='button button-toggle'/>
-        //     </label>
-        //     <Link to="/" className='logo-container'>
-        //         <img className='logo' src={isHome ? '/assets/logo.png' : '/assets/logo_black.png'} alt="Logo" />
-        //     </Link>
-        //     <nav className='nav'>
-        //         <Link to="/" className='nav-item'>Home</Link>
-        //         <Link to="/shop" className='nav-item'>Shop</Link>
-        //         <Link to="/about" className='nav-item'>About</Link>
-        //     </nav>
-        // </div>
     )
 }
 

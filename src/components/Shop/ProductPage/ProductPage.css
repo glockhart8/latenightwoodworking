@@ -43,10 +43,10 @@
     }
 
     .product-imgs {
-        width: 90%;
+        width: 100%;
     }
 
     .product-description {
-        width: '90%';
+        width: 100%;
     }
 }
