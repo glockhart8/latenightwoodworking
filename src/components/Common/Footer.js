@@ -23,22 +23,21 @@ const Footer = () => {
                     <FaTiktok/>
                     </a>
                 </li>
-            </ul>
-
-            <ul class="menu">
-                <li class="menu__item">
-                    <Link class="menu__link" to="/">Home</Link>
-                </li>
-                <li class="menu__item">
-                    <Link class="menu__link" to="/shop">Shop</Link>
-                </li>
-                <li class="menu__item">
-                    <Link class="menu__link" to="/about">About</Link>
-                </li>
-                <li class="menu__item">
-                    <Link class="menu__link" to="/about">Contact</Link>
-                </li>
-            </ul>
+            </ul>    
+                <ul class="menu">
+                    <li class="menu__item">
+                        <Link class="menu__link" to="/">Home</Link>
+                    </li>
+                    <li class="menu__item">
+                        <Link class="menu__link" to="/shop">Shop</Link>
+                    </li>
+                    <li class="menu__item">
+                        <Link class="menu__link" to="/about">About</Link>
+                    </li>
+                    <li class="menu__item">
+                        <Link class="menu__link" to="/about">Contact</Link>
+                    </li>
+                </ul>
             <p>&copy; 2024 Late Night Woodworking</p>
         </footer>
     )
