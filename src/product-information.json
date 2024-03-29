@@ -133,18 +133,17 @@
             "description": "A timeless masterpiece meticulously crafted from locally sourced cherry and walnut wood. This classic design takes on a distinctively gothic ambiance, infusing the traditional with a touch of dark allure. Every square tells a story as the rich hues of cherry and walnut come together in perfect harmony. The locally sourced wood not only adds authenticity to the craftsmanship but also echoes a commitment to sustainability. This chess board, a wedding present to my brother and his wife, is more than a strategic game set. It's a symbol of enduring love and thoughtful craftsmanship. The contrasting colors and intricate detailing make each move on this board a visual delight.",
             "images": {
                 "small": [
-                    "../assets/chessboard/chessboard.png",
+                    "../assets/chessboard/small/chessboard.png",
                     "../assets/chessboard/small/chessboard-1-small.jpg",
                     "../assets/chessboard/small/chessboard-2-small.jpg",
                     "../assets/chessboard/small/chessboard-3-small.jpg",
-                    "../assets/chessboard/small/chessboard-4-small.jpg",
-                    "../assets/chessboard/small/chessboard-5-small.jpg"
+                    "../assets/chessboard/small/chessboard-4-small.jpg"
                 ], "large": [
-                    "../assets/chessboard/chessboard.png",
+                    "../assets/chessboard/large/chessboard.png",
+                    "../assets/chessboard/large/chessboard-1-large.jpg",
                     "../assets/chessboard/large/chessboard-2-large.jpg",
                     "../assets/chessboard/large/chessboard-3-large.jpg",
-                    "../assets/chessboard/large/chessboard-4-large.jpg",
-                    "../assets/chessboard/large/chessboard-5-large.jpg" 
+                    "../assets/chessboard/large/chessboard-4-large.jpg"
                 ]
             },
             "link": "https://youtu.be/fE0HHUAnZys?si=_414DR2VFhal7UXT"
