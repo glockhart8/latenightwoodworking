@@ -2,6 +2,7 @@
 import React from 'react'
 import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa'
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -26,16 +27,16 @@ const Footer = () => {
 
             <ul class="menu">
                 <li class="menu__item">
-                    <a class="menu__link" href="/">Home</a>
+                    <Link class="menu__link" href="/">Home</Link>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="/shop">Shop</a>
+                    <Link class="menu__link" href="/shop">Shop</Link>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="/about">About</a>
+                    <Link class="menu__link" href="/about">About</Link>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="/about">Contact</a>
+                    <Link class="menu__link" href="/about">Contact</Link>
                 </li>
             </ul>
             <p>&copy; 2024 Late Night Woodworking</p>
