@@ -26,6 +26,14 @@
     padding-left: '24px';
 }
 
+.icon__link {
+    font-size: 2rem;
+    color: #e21919;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
 @media only screen and (max-width: 960px) {  
     .product-wrapper {
         display: flex;

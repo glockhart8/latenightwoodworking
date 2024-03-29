@@ -1,11 +1,68 @@
 {
     "products": [
         {
-            "name": "Two Tier Coffee Table",
-            "key": "RH-Coffee-Table",
+            "name": "Walnut & Black Epoxy Table",
+            "key": "Walnut-And-Epoxy-Table",
             "id": "1",
-            "price": "$3,000",
-            "description": "Introducing the Two Tier Coffee Table – a practical interpretation inspired by the timeless Wyeth Oak Floating Coffee Table from Restoration Hardware. Crafted with precision from White Oak sourced locally in the Pacific Northwest, this table stands out for its durability and natural beauty. Unlike its counterpart, this table is crafted entirely from solid White Oak, omitting veneers and engineered wood for enduring quality. The double-decker design adds a contemporary touch, providing both display and storage space, marrying form and function seamlessly. Rotted in the essence of African tribal design, the silhouettes exude a sense of modern luxury. Meticulously handcrafted by Griffin, this piece is a unique and stunning addition to any living space.",
+            "price": "$3,500",
+            "description": "This is the second table from the walnut slab and it couldn't be more different from it's sister table. This table has much straighter grain making it much less complicated, but equally as beautiful in it's own way.",
+            "images": {
+                "small":
+                [
+                    "../assets/walnut1/small/walnut-epoxy-1-small.jpg",
+                    "../assets/walnut1/small/walnut-epoxy-2-small.jpg",
+                    "../assets/walnut1/small/walnut-epoxy-3-small.jpg",
+                    "../assets/walnut1/small/walnut-epoxy-4-small.jpg",
+                    "../assets/walnut1/small/walnut-epoxy-5-small.jpg",
+                    "../assets/walnut1/small/walnut-epoxy-6-small.jpg",
+                    "../assets/walnut1/small/walnut-epoxy-7-small.jpg"
+
+                ], "large": [
+                    "../assets/walnut1/large/walnut-epoxy-1-large.jpg",
+                    "../assets/walnut1/large/walnut-epoxy-2-large.jpg",
+                    "../assets/walnut1/large/walnut-epoxy-3-large.jpg",
+                    "../assets/walnut1/large/walnut-epoxy-4-large.jpg",
+                    "../assets/walnut1/large/walnut-epoxy-5-large.jpg",
+                    "../assets/walnut1/large/walnut-epoxy-6-large.jpg",
+                    "../assets/walnut1/large/walnut-epoxy-7-large.jpg"
+                ]
+            },
+            "link": "https://youtu.be/RyT8CuOHeOs"
+        },
+        {
+            "name": "Burled Walnut & Epoxy Table",
+            "key": "Burled-Walnut",
+            "id": "2",
+            "price": "Sold",
+            "description": "One of the two tables from the walnut slab. This piece is truly one of a kind, with the curling grain resulting in a highly chatoyant table",
+            "images": {
+                "small":
+                [
+                    "../assets/walnut2/small/walnut-epoxy-1-small.jpg",
+                    "../assets/walnut2/small/walnut-epoxy-2-small.jpg",
+                    "../assets/walnut2/small/walnut-epoxy-3-small.jpg",
+                    "../assets/walnut2/small/walnut-epoxy-4-small.jpg",
+                    "../assets/walnut2/small/walnut-epoxy-5-small.jpg",
+                    "../assets/walnut2/small/walnut-epoxy-6-small.jpg",
+                    "../assets/walnut2/small/walnut-epoxy-7-small.jpg"
+                ], "large": [
+                    "../assets/walnut2/large/walnut-epoxy-1-large.jpg",
+                    "../assets/walnut2/large/walnut-epoxy-2-large.jpg",
+                    "../assets/walnut2/large/walnut-epoxy-3-large.jpg",
+                    "../assets/walnut2/large/walnut-epoxy-4-large.jpg",
+                    "../assets/walnut2/large/walnut-epoxy-5-large.jpg",
+                    "../assets/walnut2/large/walnut-epoxy-6-large.jpg",
+                    "../assets/walnut2/large/walnut-epoxy-7-large.jpg"
+                ]
+            },
+            "link": "https://youtu.be/RyT8CuOHeOs"
+        },
+        {
+            "name": "White Oak Coffee Table",
+            "key": "RH-Coffee-Table",
+            "id": "3",
+            "price": "$2,500",
+            "description": "Introducing the White Oak Coffee Table – a practical interpretation inspired by the timeless Wyeth Oak Floating Coffee Table from Restoration Hardware. Crafted with precision from White Oak sourced locally in the Pacific Northwest, this table stands out for its durability and natural beauty. Unlike its counterpart, this table is crafted entirely from solid White Oak, omitting veneers and engineered wood for enduring quality. The double-decker design adds a contemporary touch, providing both display and storage space, marrying form and function seamlessly. Rotted in the essence of African tribal design, the silhouettes exude a sense of modern luxury. Meticulously handcrafted by Griffin, this piece is a unique and stunning addition to any living space.",
             "images": {
                 "small":
                 [
@@ -21,12 +78,13 @@
                     "../assets/rh/large/rh-4-large.jpg",
                     "../assets/rh/large/rh-5-large.jpg" 
                 ]
-            }
+            },
+            "link": "https://youtu.be/XBjs5Xs-VNE?si=MXZM4fu4isKiTTMC"
         },
         {
             "name": "Ember Coffee Table",
             "key": "Ember-Coffee-Table",
-            "id": "2",
+            "id": "4",
             "price": "Sold",
             "description": "Behold the Ember Coffee Table – a testament to nature’s artistry and the timeless craft of woodworking. Crafted from a magnificent round cedar slab sourced from a bearutiful farm in Port Orchard, WA. Embracing the ancient technique of “shou sugi ban,” the entire table was engulfed in flames, leaving a charred, rich texture that accentuates the natural grains of the wood. The crack, now adorned with expertly crafted bowties, stands as a symbol of strength and artful intervention, ensuring the tables longevity. Supported by vibrant geometric cedar legs, this table not only boasts a unique design but harmoniously blends form and function. Telling a captivating story, where nature’s imperfections become art.",
             "images": { 
@@ -41,12 +99,13 @@
                     "../assets/ember/large/ember-3-large.jpg",
                     "../assets/ember/large/ember-4-large.jpg"
                 ]
-            }
+            },
+            "link": "https://youtu.be/T3eTG8UIHJM?si=2PaE1u0Im6YsYU2s"
         },
         {
             "name": "Elmwood Foyer Table",
             "key": "Elmwood-Foyer-Table",
-            "id": "3",
+            "id": "5",
             "price": "Sold",
             "description": "Introducing the Elmwood Waterfall Foyer Table – a heartfelt creation born from the dirt in Woodinville, WA. A bittersweet transformation of an elm tree affected by Dutch Elms Disease. This piece is more than furniture; it’s a narrative of preservation and renewal, a tribute to the tree’s enduring legacy. Crafted through a labor of love – from cutting down the tree to meticulously milling and drying the wood – the Elmwood Waterfall Foyer table embodies the resilience found in repurposing a tree marked by disease. The design, elegantly simple yet striking, allows the grain to flow seamlessly through the entire table, creating a captivating waterfall effect.",
             "images": {
@@ -63,12 +122,13 @@
                     "../assets/foyer/large/foyer-4-large.jpg",
                     "../assets/foyer/large/foyer-5-large.jpg" 
                 ]
-        }
+            },
+            "link": "https://youtu.be/8foXxPSpXz4?si=CvN9Yp8RjYhZfi-u"
         },
         {
             "name": "Walnut & Cherry Chessboard",
             "key": "Chessboard",
-            "id": "4",
+            "id": "6",
             "price": "Sold",
             "description": "A timeless masterpiece meticulously crafted from locally sourced cherry and walnut wood. This classic design takes on a distinctively gothic ambiance, infusing the traditional with a touch of dark allure. Every square tells a story as the rich hues of cherry and walnut come together in perfect harmony. The locally sourced wood not only adds authenticity to the craftsmanship but also echoes a commitment to sustainability. This chess board, a wedding present to my brother and his wife, is more than a strategic game set. It's a symbol of enduring love and thoughtful craftsmanship. The contrasting colors and intricate detailing make each move on this board a visual delight.",
             "images": {
@@ -86,7 +146,8 @@
                     "../assets/chessboard/large/chessboard-4-large.jpg",
                     "../assets/chessboard/large/chessboard-5-large.jpg" 
                 ]
-            }
+            },
+            "link": "https://youtu.be/fE0HHUAnZys?si=_414DR2VFhal7UXT"
         }
     ]
 }

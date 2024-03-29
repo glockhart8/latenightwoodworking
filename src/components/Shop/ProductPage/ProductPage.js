@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
+import { FaYoutube } from 'react-icons/fa'
 
 import products from '../../../product-information.json'
 
@@ -50,6 +51,10 @@ const ProductPage = () => {
                 <h2 style={{marginLeft: '16px' }}>{product.name}</h2>
                 <h3 style={{marginLeft: '16px' }}>{product.price}</h3>
                 <p style={{marginLeft: '16px' }}>{product.description}</p>
+                <p style={{marginLeft: '16px' }}><br></br>If you would like to contact me about purchasing this piece or commissioning one just like it, please contact me by emailing me at <b>contact@latenightwoodworking.com</b> or DM on instagram.</p>
+                <a className='icon__link' href={product.link}>
+                        <FaYoutube/>
+                </a>
             </div>
         </div>
     )
