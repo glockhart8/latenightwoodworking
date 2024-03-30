@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import './Header.scss'
+import './Header.css'
 
 const Header = () => {
     const location = useLocation()
@@ -8,7 +8,9 @@ const Header = () => {
 	const [click, setClick] = useState(false);
     const handleBurgerClick = () => {
 		setClick(!click);
-        document.getElementById('swiper-wrapper').classList.toggle('hidden')
+        if(document.getElementById('swiper-wrapper') != null) {
+            document.getElementById('swiper-wrapper').classList.toggle('hidden')
+        }
 		// Burger Animation
 		const burger = document.querySelector('.burger');
 		burger.classList.toggle('toggleBurger');
