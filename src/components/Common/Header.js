@@ -8,7 +8,7 @@ const Header = () => {
 	const [click, setClick] = useState(false);
     const handleBurgerClick = () => {
 		setClick(!click);
-
+        document.getElementById('swiper-wrapper').classList.toggle('hidden')
 		// Burger Animation
 		const burger = document.querySelector('.burger');
 		burger.classList.toggle('toggleBurger');
@@ -27,7 +27,7 @@ const Header = () => {
                     <div className="line2"></div>
                     <div className="line3"></div>
                 </div>
-                <ul className={click ? 'nav active' : 'nav'}>
+                <ul id='header' className={click ? 'nav active' : 'nav'}>
                     <li onClick={handleBurgerClick}>
                         <Link className='nav-item' to="/">Home</Link>
                     </li>

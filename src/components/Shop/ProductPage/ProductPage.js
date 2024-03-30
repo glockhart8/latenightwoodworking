@@ -22,7 +22,7 @@ const ProductPage = () => {
     const product = products.products.find((product) => product.key === key)
 
     return (
-        <div className='product-wrapper'>
+        <div id='swiper-wrapper' className='product-wrapper'>
             <div className='product-imgs'>
                 <Swiper navigation thumbs={{ swiper: thumbsSwiper }} modules={[Navigation, Thumbs]}>
                     {product.images.large.map((image, index) => (

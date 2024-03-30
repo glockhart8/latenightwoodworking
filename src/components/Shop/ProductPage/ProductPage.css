@@ -42,6 +42,10 @@
         width: 100%;
     }
 
+    .hidden {
+        display: none;
+    }
+
     .product-imgs {
         width: 100%;
     }
