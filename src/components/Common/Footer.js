@@ -24,20 +24,20 @@ const Footer = () => {
                     </a>
                 </li>
             </ul>    
-                <ul className={styles['menu']}>
-                    <li className={styles['menu__item']}>
-                        <Link className={styles['menu__link']} to="/">Home</Link>
-                    </li>
-                    <li className={styles['menu__item']}>
-                        <Link className={styles['menu__link']} to="/shop">Shop</Link>
-                    </li>
-                    <li className={styles['menu__item']}>
-                        <Link className={styles['menu__link']} to="/about">About</Link>
-                    </li>
-                    <li className={styles['menu__item']}>
-                        <Link className={styles['menu__link']} to="/about">Contact</Link>
-                    </li>
-                </ul>
+            <ul className={styles['menu']}>
+                <li className={styles['menu__item']}>
+                    <Link className={styles['menu__link']} to="/">Home</Link>
+                </li>
+                <li className={styles['menu__item']}>
+                    <Link className={styles['menu__link']} to="/shop">Shop</Link>
+                </li>
+                <li className={styles['menu__item']}>
+                    <Link className={styles['menu__link']} to="/about">About</Link>
+                </li>
+                <li className={styles['menu__item']}>
+                    <Link className={styles['menu__link']} to="/about">Contact</Link>
+                </li>
+            </ul>
             <p>&copy; 2024 Late Night Woodworking</p>
         </footer>
     )

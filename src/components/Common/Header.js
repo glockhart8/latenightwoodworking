@@ -28,7 +28,7 @@ const Header = () => {
                     <div className="line2"></div>
                     <div className="line3"></div>
                 </div>
-                <ul className={click ? `${styles.nav} ${styles.active}` : styles.nav}>
+                <ul className={`${styles.nav} ${click ? styles.active : ''}`}>
                     <li onClick={handleBurgerClick}>
                         <Link className={styles['nav-item']} to="/">Home</Link>
                     </li>

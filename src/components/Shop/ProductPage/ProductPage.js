@@ -24,7 +24,7 @@ const ProductPage = () => {
     return (
         <div className='product-wrapper'>
             <div className='product-imgs'>
-                <Swiper navigation thumbs={{ swiper: thumbsSwiper }} modules={[Navigation, Thumbs]}>
+                <Swiper navigation thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }} modules={[Navigation, Thumbs]}>
                     {product.images.large.map((image, index) => (
                         <SwiperSlide key={index}>
                             <img src={`/assets/${image}`} alt="product" className='responsive' />
