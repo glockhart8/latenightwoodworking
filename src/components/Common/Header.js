@@ -1,41 +1,42 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import './Header.scss'
+import styles from './Header.module.scss'
 
 const Header = () => {
     const location = useLocation()
+
+    const burgerRef = useRef(null);
 
 	const [click, setClick] = useState(false);
     const handleBurgerClick = () => {
 		setClick(!click);
 
 		// Burger Animation
-		const burger = document.querySelector('.burger');
-		burger.classList.toggle('toggleBurger');
+		burgerRef.current.classList.toggle('toggleBurger');
 	}
 
     const isHome = location.pathname === '/'
 
     return (
-        <div className='nav-wrapper'>
-            <nav className={isHome ? 'home-nav' : ''}>
-                <Link to="/" className='logo-container'>
-                    <img className='logo' src={isHome ? '/assets/logo.png' : '/assets/logo_black.png'} alt="Logo" />
+        <div className={styles['nav-wrapper']}>
+            <nav className={isHome ? styles['home-nav'] : ''}>
+                <Link to="/" className={styles['logo-container']}>
+                    <img className={styles['logo']} src={isHome ? '/assets/logo.png' : '/assets/logo_black.png'} alt="Logo" />
                 </Link>
-                <div onClick={handleBurgerClick} className="burger"> 
+                <div ref={burgerRef} onClick={handleBurgerClick} className={styles['burger']}> 
                     <div className="line1"></div>
                     <div className="line2"></div>
                     <div className="line3"></div>
                 </div>
-                <ul className={click ? 'nav active' : 'nav'}>
+                <ul className={click ? `${styles.nav} ${styles.active}` : styles.nav}>
                     <li onClick={handleBurgerClick}>
-                        <Link className='nav-item' to="/">Home</Link>
+                        <Link className={styles['nav-item']} to="/">Home</Link>
                     </li>
                     <li onClick={handleBurgerClick}>
-                        <Link className='nav-item' to="/shop">Shop</Link>
+                        <Link className={styles['nav-item']} to="/shop">Shop</Link>
                     </li>
                     <li onClick={handleBurgerClick}>
-                        <Link className='nav-item' to="/about">About</Link>
+                        <Link className={styles['nav-item']} to="/about">About</Link>
                     </li>
                 </ul>
             </nav>
