@@ -1,7 +1,6 @@
 // HomePage.js
 import React from 'react'
-import LandingSection from '../components/Home/LandingSection' // Import the new component
-// import YoutubeEmbed from '../components/Common/YoutubeEmbed'
+import LandingSection from '../components/Home/LandingSection'
 
 const HomePage = () => {
     return (

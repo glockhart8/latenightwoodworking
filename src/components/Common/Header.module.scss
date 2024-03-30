@@ -9,7 +9,6 @@ nav {
     align-items: center;
     width: 90%;
     max-height: 100px;
-    left: 50px;
     position: relative;
     z-index: 1;
 }
@@ -20,7 +19,13 @@ nav {
 
 .home-nav {
     top: 10px;
-    left: 50px;
+    left: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    .home-nav {
+        left: 50px;
+    }
 }
 
 .home-nav a {

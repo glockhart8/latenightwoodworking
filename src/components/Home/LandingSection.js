@@ -1,9 +1,9 @@
 import React from 'react'
-import './LandingSection.css' // Create this file for styling
+import styles from './LandingSection.module.css'
 
 const LandingSection = () => {
     return (
-        <div className="landing-section">
+        <div className={styles["landing-section"]}>
             <img src="/assets/landing-image.jpg" alt="Landing" />
         </div>
     )
