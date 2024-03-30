@@ -33,6 +33,9 @@ const Header = () => {
                         <Link className={styles['nav-item']} to="/">Home</Link>
                     </li>
                     <li onClick={handleBurgerClick}>
+                        <Link className={styles['nav-item']} to="/videos">Videos</Link>
+                    </li>
+                    <li onClick={handleBurgerClick}>
                         <Link className={styles['nav-item']} to="/shop">Shop</Link>
                     </li>
                     <li onClick={handleBurgerClick}>

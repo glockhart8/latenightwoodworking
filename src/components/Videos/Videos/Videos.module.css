@@ -1,0 +1,15 @@
+.videos-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media only screen and (min-width: 600px) {
+  .videos-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.video {
+  /* max-width: 400px; */
+}

@@ -1,11 +1,13 @@
 import React from 'react'
-import { Route, Routes, BrowserRouter } from 'react-router-dom'
-import HomePage from './pages/HomePage'
-import ShopPage from './pages/ShopPage'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Footer from './components/Common/Footer'
+import Header from './components/Common/Header'
 import ProductPage from './components/Shop/ProductPage/ProductPage'
 import AboutPage from './pages/AboutPage'
-import Header from './components/Common/Header'
-import Footer from './components/Common/Footer'
+import HomePage from './pages/HomePage'
+import ShopPage from './pages/ShopPage'
+import VideosPage from './pages/VideosPage'
+
 function App() {
     return (
         <BrowserRouter>
@@ -15,6 +17,7 @@ function App() {
                 <Route path="/" exact element={<HomePage />} />
                 <Route path="/shop" element={<ShopPage />} />
                 <Route path="/about" element={<AboutPage />} />
+                <Route path="/videos" element={<VideosPage />} />
                 <Route path="/shop/:key" element={<ProductPage />} />
             </Routes>
             </div>
