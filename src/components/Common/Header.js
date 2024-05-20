@@ -1,20 +1,20 @@
-import React, { useState, useRef } from 'react'
+import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import styles from './Header.module.scss'
+import styles from './Header.module.css'
 
 const Header = () => {
     const location = useLocation()
+    // const burgerRef = useRef(null)
+	const [click, setClick] = useState(false)
 
-    const burgerRef = useRef(null);
-
-	const [click, setClick] = useState(false);
     const handleBurgerClick = () => {
-		setClick(!click);
+        let tempClick = !click
+        setClick(tempClick)
 
 		// Burger Animation
-		burgerRef.current.classList.toggle('toggleBurger');
+        const burger = document.getElementById('burger')
+		burger.classList.toggle('toggleBurger')
 	}
-
     const isHome = location.pathname === '/'
 
     return (
@@ -23,7 +23,7 @@ const Header = () => {
                 <Link to="/" className={styles['logo-container']}>
                     <img className={styles['logo']} src={isHome ? '/assets/logo.png' : '/assets/logo_black.png'} alt="Logo" />
                 </Link>
-                <div ref={burgerRef} onClick={handleBurgerClick} className={styles['burger']}> 
+                <div id='burger' onClick={handleBurgerClick} className={styles['burger']}> 
                     <div className="line1"></div>
                     <div className="line2"></div>
                     <div className="line3"></div>

@@ -1,9 +1,40 @@
 {
     "products": [
         {
+            "name": "Standing Cherry Desk",
+            "key": "Standing-Cherry-Desk",
+            "id": "1",
+            "price": "$1,500",
+            "description": "Elevate your workspace with our handcrafted desk, featuring a rich cherry wood desktop and Flexispot E7 Plus standing desk legs. This modern, 4x2 ft desk combines timeless elegance with ergonomic functionality. The handmade cherry wood top showcases unique grain patterns and superior chatoyance, while the advanced standing desk legs offer seamless height adjustments for a healthier work experience. Perfect for any contemporary office, this desk provides ample space for your essentials and blends seamlessly with modern décor.",
+            "images": {
+                "small":
+                [
+                    "../assets/flexispot/small/flexispot-1-small.jpg",
+                    "../assets/flexispot/small/flexispot-2-small.jpg",
+                    "../assets/flexispot/small/flexispot-3-small.jpg",
+                    "../assets/flexispot/small/flexispot-4-small.jpg",
+                    "../assets/flexispot/small/flexispot-5-small.jpg",
+                    "../assets/flexispot/small/flexispot-6-small.jpg",
+                    "../assets/flexispot/small/flexispot-7-small.jpg",
+                    "../assets/flexispot/small/flexispot-8-small.jpg"
+
+                ], "large": [
+                    "../assets/flexispot/large/flexispot-1-large.jpg",
+                    "../assets/flexispot/large/flexispot-2-large.jpg",
+                    "../assets/flexispot/large/flexispot-3-large.jpg",
+                    "../assets/flexispot/large/flexispot-4-large.jpg",
+                    "../assets/flexispot/large/flexispot-5-large.jpg",
+                    "../assets/flexispot/large/flexispot-6-large.jpg",
+                    "../assets/flexispot/large/flexispot-7-large.jpg",
+                    "../assets/flexispot/large/flexispot-8-large.jpg"
+                ]
+            },
+            "link": "https://youtu.be/RyT8CuOHeOs"
+        },
+        {
             "name": "Walnut & Black Epoxy Table",
             "key": "Walnut-And-Epoxy-Table",
-            "id": "1",
+            "id": "2",
             "price": "$3,500",
             "description": "A single slab with a twist and a bow, turned into 2 beautiful tables. The slab had so many defects, holes, and was even in two pieces. But as every woodworker knows, the more defects, the more unique the product. This table is the second from the walnut slab, but it couldn’t be more different than the first. The grain is much straighter making it less complicated, and easier to put in the home. ",
             "images": {
@@ -32,7 +63,7 @@
         {
             "name": "Burled Walnut & Epoxy Table",
             "key": "Burled-Walnut",
-            "id": "2",
+            "id": "3",
             "price": "Sold",
             "description": "A single slab with a twist and a bow, turned into 2 beautiful tables. The slab had so many defects, holes, and was even in two pieces. But as every woodworker knows, the more defects, the more unique the product. This table is the first from the walnut slab, and it is definitely the more flashy piece. With the burled wood making the chatoyance level at an all time high. This is one of the most unique tables that I have ever seen. If you want a piece to stand out in any space it’s in, this is the one for you. ",
             "images": {
@@ -60,7 +91,7 @@
         {
             "name": "White Oak Coffee Table",
             "key": "RH-Coffee-Table",
-            "id": "3",
+            "id": "4",
             "price": "Sold",
             "description": "Introducing the White Oak Coffee Table – a practical interpretation inspired by the timeless Wyeth Oak Floating Coffee Table from Restoration Hardware. Crafted with precision from White Oak sourced locally in the Pacific Northwest, this table stands out for its durability and natural beauty. Unlike its counterpart, this table is crafted entirely from solid White Oak, omitting veneers and engineered wood for enduring quality. The double-decker design adds a contemporary touch, providing both display and storage space, marrying form and function seamlessly. Rotted in the essence of African tribal design, the silhouettes exude a sense of modern luxury. Meticulously handcrafted by Griffin, this piece is a unique and stunning addition to any living space.",
             "images": {
@@ -84,7 +115,7 @@
         {
             "name": "Ember Coffee Table",
             "key": "Ember-Coffee-Table",
-            "id": "4",
+            "id": "5",
             "price": "Sold",
             "description": "Behold the Ember Coffee Table – a testament to nature’s artistry and the timeless craft of woodworking. Crafted from a magnificent round cedar slab sourced from a bearutiful farm in Port Orchard, WA. Embracing the ancient technique of “shou sugi ban,” the entire table was engulfed in flames, leaving a charred, rich texture that accentuates the natural grains of the wood. The crack, now adorned with expertly crafted bowties, stands as a symbol of strength and artful intervention, ensuring the tables longevity. Supported by vibrant geometric cedar legs, this table not only boasts a unique design but harmoniously blends form and function. Telling a captivating story, where nature’s imperfections become art.",
             "images": { 
@@ -105,7 +136,7 @@
         {
             "name": "Elmwood Foyer Table",
             "key": "Elmwood-Foyer-Table",
-            "id": "5",
+            "id": "6",
             "price": "Sold",
             "description": "Introducing the Elmwood Waterfall Foyer Table – a heartfelt creation born from the dirt in Woodinville, WA. A bittersweet transformation of an elm tree affected by Dutch Elms Disease. This piece is more than furniture; it’s a narrative of preservation and renewal, a tribute to the tree’s enduring legacy. Crafted through a labor of love – from cutting down the tree to meticulously milling and drying the wood – the Elmwood Waterfall Foyer table embodies the resilience found in repurposing a tree marked by disease. The design, elegantly simple yet striking, allows the grain to flow seamlessly through the entire table, creating a captivating waterfall effect.",
             "images": {
@@ -128,7 +159,7 @@
         {
             "name": "Walnut & Cherry Chessboard",
             "key": "Chessboard",
-            "id": "6",
+            "id": "7",
             "price": "Sold",
             "description": "A timeless masterpiece meticulously crafted from locally sourced cherry and walnut wood. This classic design takes on a distinctively gothic ambiance, infusing the traditional with a touch of dark allure. Every square tells a story as the rich hues of cherry and walnut come together in perfect harmony. The locally sourced wood not only adds authenticity to the craftsmanship but also echoes a commitment to sustainability. This chess board, a wedding present to my brother and his wife, is more than a strategic game set. It's a symbol of enduring love and thoughtful craftsmanship. The contrasting colors and intricate detailing make each move on this board a visual delight.",
             "images": {
