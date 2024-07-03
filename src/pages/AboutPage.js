@@ -10,7 +10,9 @@ const AboutPage = () => {
         <div className='about-wrapper'>
             <div className='text'>
                 <h1>My Story.</h1>
-                <p> Where do I even start… It was a chilly Seattle evening in 1997. No, that’s too far back, But not by much.
+                <p>Writing it as you read this
+
+                {/* <p> Where do I even start… It was a chilly Seattle evening in 1997. No, that’s too far back, But not by much.
                     <br></br><br></br>
                     While Late Night Woodworking was established in December of 2023, the long winding story of how it came 
                     about begins long before then. I think all the way back to elementary school, when I made my first creation, 
@@ -71,7 +73,7 @@ const AboutPage = () => {
                      Woodworking and 7 months in (today), I’m at just over 5,000 subs. 
                     <br></br><br></br>
                     So, my dear reader, you may be wondering why I have told you all of this on the about page of a woodworking website. 
-                    Well, this… is my story. Not finished joe.
+                    Well, this… is my story. Not finished joe. */}
                     <br></br><br></br>If you have any questions or inquiries, 
                     email me at <b>contact@latenightwoodworking.com</b>
                     instagram and DM on there.
