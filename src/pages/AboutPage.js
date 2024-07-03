@@ -76,7 +76,6 @@ const AboutPage = () => {
                     Well, this… is my story. Not finished joe. */}
                     <br></br><br></br>If you have any questions or inquiries, 
                     email me at <b>contact@latenightwoodworking.com</b>
-                    instagram and DM on there.
                 </p>
             </div>
         </div>
