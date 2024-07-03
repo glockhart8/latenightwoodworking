@@ -1,8 +1,11 @@
 import React from 'react'
-
+import ReactGA from "react-ga4"
 import '../components/About/About.css'
 
+ReactGA.initialize("G-DX3HNRQL5L")
+
 const AboutPage = () => {
+    ReactGA.send({ hitType: "pageview", page: "/about", title: "AboutME" });
     return (
         <div className='about-wrapper'>
             <div className='text'>
