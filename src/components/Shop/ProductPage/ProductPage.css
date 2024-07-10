@@ -4,6 +4,10 @@
     border-radius: 5px;
   }
 
+.swiper {
+    z-index: 0 !important;
+}
+
 .swiper-thumbs {
     width: 80%
 }
