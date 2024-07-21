@@ -1,8 +1,13 @@
 import React from 'react'
-
 import Product from '../components/Shop/Product/Product'
-
 import products from '../product-information.json'
+import ReactGA from 'react-ga4'
+
+ReactGA.event({
+    category: "website",
+    action: "shop-page-loaded",
+  });
+
 
 const ShopPage = () => {
     return (

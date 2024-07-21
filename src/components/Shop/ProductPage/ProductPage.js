@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { FaYoutube } from 'react-icons/fa'
+import ReactGA from 'react-ga4'
 
 import products from '../../../product-information.json'
 
@@ -14,6 +15,8 @@ import 'swiper/css/thumbs'
 
 import { Navigation, Thumbs } from 'swiper/modules'
 
+
+
 const ProductPage = () => {
     const { key } = useParams()
 
@@ -21,6 +24,11 @@ const ProductPage = () => {
 
     const product = products.products.find((product) => product.key === key)
 
+    ReactGA.event({
+        category: "website",
+        action: "shop-item-loaded",
+        label: product, 
+    });
     return (
         <div id='swiper-wrapper' className='product-wrapper'>
             <div className='product-imgs'>

@@ -1,6 +1,12 @@
 // HomePage.js
 import React from 'react'
 import LandingSection from '../components/Home/LandingSection'
+import ReactGA from 'react-ga4'
+
+ReactGA.event({
+    category: "website",
+    action: "home-page-loaded"
+  });
 
 const HomePage = () => {
     return (
