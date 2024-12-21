@@ -1,6 +1,64 @@
 {
     "products": [
         {
+            "name": "Jewelry Box",
+            "key": "Jewelry_Box",
+            "id": "1",
+            "price": "Sold",
+            "description": "Handcrafted with Black Walnut and accents of Purpleheart, this is the perfect gift for a wedding present. It's small but it carries a heavy meaning, engraved with the couples new last name and wedding date to commemorate a moment that neither of them will ever forget.",
+            "images": {
+                "small":
+                [
+                    "../assets/jb/small/jb-1-small.jpg",
+                    "../assets/jb/small/jb-2-small.jpg",
+                    "../assets/jb/small/jb-3-small.jpg",
+                    "../assets/jb/small/jb-4-small.jpg",
+                    "../assets/jb/small/jb-5-small.jpg",
+                    "../assets/jb/small/jb-6-small.jpg",
+                    "../assets/jb/small/jb-7-small.jpg"
+
+                ], "large": [
+                    "../assets/jb/large/jb-1-large.jpg",
+                    "../assets/jb/large/jb-2-large.jpg",
+                    "../assets/jb/large/jb-3-large.jpg",
+                    "../assets/jb/large/jb-4-large.jpg",
+                    "../assets/jb/large/jb-5-large.jpg",
+                    "../assets/jb/large/jb-6-large.jpg",
+                    "../assets/jb/large/jb-7-large.jpg"
+                ]
+            },
+            "link": "https://youtu.be/V705UWk51SY"
+        },
+        {
+            "name": "Maple Workbench",
+            "key": "Maple-Workbench",
+            "id": "2",
+            "price": "Not For Sale",
+            "description": "A work bench made from solid hard Maple ",
+            "images": {
+                "small":
+                [
+                    "../assets/wb/small/wb-1-small.jpg",
+                    "../assets/wb/small/wb-2-small.jpg",
+                    "../assets/wb/small/wb-3-small.jpg",
+                    "../assets/wb/small/wb-4-small.jpg",
+                    "../assets/wb/small/wb-5-small.jpg",
+                    "../assets/wb/small/wb-6-small.jpg",
+                    "../assets/wb/small/wb-7-small.jpg"
+
+                ], "large": [
+                    "../assets/wb/large/wb-1-large.jpg",
+                    "../assets/wb/large/wb-2-large.jpg",
+                    "../assets/wb/large/wb-3-large.jpg",
+                    "../assets/wb/large/wb-4-large.jpg",
+                    "../assets/wb/large/wb-5-large.jpg",
+                    "../assets/wb/large/wb-6-large.jpg",
+                    "../assets/wb/large/wb-7-large.jpg"
+                ]
+            },
+            "link": "https://youtu.be/V705UWk51SY"
+        },
+        {
             "name": "Maple Desk",
             "key": "Maple-Desk",
             "id": "1",
