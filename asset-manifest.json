@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.55499aa4.css",
-    "main.js": "/static/js/main.a89bd0b8.js",
-    "index.html": "/index.html",
-    "main.55499aa4.css.map": "/static/css/main.55499aa4.css.map",
-    "main.a89bd0b8.js.map": "/static/js/main.a89bd0b8.js.map"
+    "main.css": "/latenightwoodworking/static/css/main.55499aa4.css",
+    "main.js": "/latenightwoodworking/static/js/main.a89bd0b8.js",
+    "index.html": "/latenightwoodworking/index.html",
+    "main.55499aa4.css.map": "/latenightwoodworking/static/css/main.55499aa4.css.map",
+    "main.a89bd0b8.js.map": "/latenightwoodworking/static/js/main.a89bd0b8.js.map"
   },
   "entrypoints": [
     "static/css/main.55499aa4.css",
